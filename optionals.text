@@ -1,0 +1,11 @@
+Elena Fis
+9/10/19
+Optionals.text
+
+What kind of value does the function getFirstVowel return?
+It returns the string characters
+Of the three ways that you unwrapped the value of firstVowel, which do you feel was most appropriate for this situation, and why?
+The double Questions mark (??) operator was the most condensed form of unwrapping the firstVowel value
+This exercise assumes that you do, in fact, have a vowel (of the English language) in your name. What, if anything, would you need to change about the code if your name was "Bjørk" or "Ghrftnx"?
+Increase parameters, so that the code can run a variable without a vowels
+
