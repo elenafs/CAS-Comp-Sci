@@ -1,0 +1,20 @@
+Elena Fis
+9/11/19
+Functions.text
+
+What keyword does Swift use to mark the definition of a function? (Think like def in Python and function in JavaScript.)
+Func is the keyword
+
+How do you declare the type of value that a function returns?
+You declare the function in the first line of code with the arrow and string in this case 
+func greet(person: String) -> String { 
+How could you use argument labels to help clean up your code or make it more readable?
+
+Argument labels allows the code to take on another form/word without explicitly stating that the two strings = each other
+func greet(person: String, from hometown: String) -> String {
+ 
+   return "Hello \(person)!  Glad you could visit from \(hometown)
+. from & person are arguments
+
+“The use of argument labels can allow a function to be called in an expressive, sentence-like manner, while still providing a function body that is readable and clear in intent.”
+
